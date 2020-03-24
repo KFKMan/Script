@@ -1,0 +1,28 @@
+-- ScriptHub By PlugCheats
+local function CreateInstance(cls,props)
+local inst = Instance.new(cls)
+for i,v in pairs(props) do
+inst[i] = v
+end
+return inst
+end
+
+local LO = CreateInstance('ScreenGui',{DisplayOrder=0,Enabled=true,ResetOnSpawn=true,Name='LO', Parent=game.CoreGui})
+local LOL = CreateInstance('Frame',{Style=Enum.FrameStyle.Custom,Active=false,AnchorPoint=Vector2.new(0, 0),BackgroundColor3=Color3.new(1, 1, 1),BackgroundTransparency=0,BorderColor3=Color3.new(0.105882, 0.164706, 0.207843),BorderSizePixel=1,ClipsDescendants=false,Draggable=false,Position=UDim2.new(0.105463788, 0, 0.175548583, 0),Rotation=0,Selectable=false,Size=UDim2.new(0, 133, 0, 127),SizeConstraint=Enum.SizeConstraint.RelativeXY,Visible=true,ZIndex=1,Name = 'LOL',Parent = LO})
+local ImageLabel = CreateInstance('ImageLabel',{Image='rbxassetid://739027095',ImageColor3=Color3.new(1, 1, 1),ImageRectOffset=Vector2.new(0, 0),ImageRectSize=Vector2.new(0, 0),ImageTransparency=0,ScaleType=Enum.ScaleType.Stretch,SliceCenter=Rect.new(0, 0, 0, 0),Active=false,AnchorPoint=Vector2.new(0, 0),BackgroundColor3=Color3.new(1, 1, 1),BackgroundTransparency=0,BorderColor3=Color3.new(0.105882, 0.164706, 0.207843),BorderSizePixel=1,ClipsDescendants=false,Draggable=false,Position=UDim2.new(0, 0, 0, 0),Rotation=0,Selectable=false,Size=UDim2.new(0, 133, 0, 127),SizeConstraint=Enum.SizeConstraint.RelativeXY,Visible=true,ZIndex=1,Name='ImageLabel',Parent = LOL})
+local inf = CreateInstance('TextButton',{Font=Enum.Font.SciFi,FontSize=Enum.FontSize.Size14,Text='Infinite d',TextColor3=Color3.new(0, 0, 0),TextScaled=false,TextSize=14,TextStrokeColor3=Color3.new(0, 0, 0),TextStrokeTransparency=1,TextTransparency=0,TextWrapped=false,TextXAlignment=Enum.TextXAlignment.Center,TextYAlignment=Enum.TextYAlignment.Center,AutoButtonColor=true,Modal=false,Selected=false,Style=Enum.ButtonStyle.Custom,Active=true,AnchorPoint=Vector2.new(0, 0),BackgroundColor3=Color3.new(1, 1, 1),BackgroundTransparency=0.30000001192093,BorderColor3=Color3.new(0.105882, 0.164706, 0.207843),BorderSizePixel=1,ClipsDescendants=false,Draggable=false,Position=UDim2.new(0, 0, 0.771653533, 0),Rotation=0,Selectable=true,Size=UDim2.new(0, 57, 0, 29),SizeConstraint=Enum.SizeConstraint.RelativeXY,Visible=true,ZIndex=1,Name='inf',Parent = LOL})
+local lala1 = CreateInstance('TextButton',{Font=Enum.Font.ArialBold,FontSize=Enum.FontSize.Size14,Text='Auto 1',TextColor3=Color3.new(0, 0, 0),TextScaled=false,TextSize=14,TextStrokeColor3=Color3.new(0, 0, 0),TextStrokeTransparency=1,TextTransparency=0,TextWrapped=false,TextXAlignment=Enum.TextXAlignment.Center,TextYAlignment=Enum.TextYAlignment.Center,AutoButtonColor=true,Modal=false,Selected=false,Style=Enum.ButtonStyle.Custom,Active=true,AnchorPoint=Vector2.new(0, 0),BackgroundColor3=Color3.new(0.45098, 0.235294, 1),BackgroundTransparency=0.30000001192093,BorderColor3=Color3.new(0.105882, 0.164706, 0.207843),BorderSizePixel=1,ClipsDescendants=false,Draggable=false,Position=UDim2.new(0, 0, 0, 0),Rotation=0,Selectable=true,Size=UDim2.new(0, 57, 0, 28),SizeConstraint=Enum.SizeConstraint.RelativeXY,Visible=true,ZIndex=1,Name='lala1',Parent = LOL})
+local lala3 = CreateInstance('TextButton',{Font=Enum.Font.Arial,FontSize=Enum.FontSize.Size14,Text='Auto 2',TextColor3=Color3.new(0, 0, 0),TextScaled=false,TextSize=14,TextStrokeColor3=Color3.new(0, 0, 0),TextStrokeTransparency=1,TextTransparency=0,TextWrapped=false,TextXAlignment=Enum.TextXAlignment.Center,TextYAlignment=Enum.TextYAlignment.Center,AutoButtonColor=true,Modal=false,Selected=false,Style=Enum.ButtonStyle.Custom,Active=true,AnchorPoint=Vector2.new(0, 0),BackgroundColor3=Color3.new(1, 1, 1),BackgroundTransparency=0.30000001192093,BorderColor3=Color3.new(0.207843, 0.0196078, 0.0196078),BorderSizePixel=1,ClipsDescendants=false,Draggable=false,Position=UDim2.new(0.571428597, 0, 0.771653533, 0),Rotation=0,Selectable=true,Size=UDim2.new(0, 57, 0, 29),SizeConstraint=Enum.SizeConstraint.RelativeXY,Visible=true,ZIndex=1,Name='lala3',Parent = LOL})
+local lala4 = CreateInstance('TextButton',{Font=Enum.Font.Fantasy,FontSize=Enum.FontSize.Size14,Text='Auto 3',TextColor3=Color3.new(0, 0, 0),TextScaled=false,TextSize=14,TextStrokeColor3=Color3.new(0, 0, 0),TextStrokeTransparency=1,TextTransparency=0,TextWrapped=false,TextXAlignment=Enum.TextXAlignment.Center,TextYAlignment=Enum.TextYAlignment.Center,AutoButtonColor=true,Modal=false,Selected=false,Style=Enum.ButtonStyle.Custom,Active=true,AnchorPoint=Vector2.new(0, 0),BackgroundColor3=Color3.new(1, 1, 1),BackgroundTransparency=0.30000001192093,BorderColor3=Color3.new(0.105882, 0.164706, 0.207843),BorderSizePixel=1,ClipsDescendants=false,Draggable=false,Position=UDim2.new(0.571428597, 0, 0, 0),Rotation=0,Selectable=true,Size=UDim2.new(0, 57, 0, 28),SizeConstraint=Enum.SizeConstraint.RelativeXY,Visible=true,ZIndex=1,Name='lala4',Parent = LOL})
+lala1.MouseButton1Click:Connect(function()
+loadstring(game:HttpGet(('https://pastebin.com/raw/5PPFYQwD'),true))()
+end)
+inf.MouseButton1Click:Connect(function()
+loadstring(game:HttpGet(('https://pastebin.com/raw/q9T9jet4'),true))()
+end)
+lala3.MouseButton1Click:Connect(function()
+loadstring(game:HttpGet(('https://pastebin.com/raw/YyrLN4qm'),true))()
+end)
+lala4.MouseButton1Click:Connect(function()
+loadstring(game:HttpGet(('https://pastebin.com/raw/hjnBYGqy'),true))()
+end)
